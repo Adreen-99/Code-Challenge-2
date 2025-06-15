@@ -28,7 +28,8 @@ form.addEventListener('submit', function (event) {
     <span class="category ${category}">${category}</span>
     <strong>${guestName}</strong>
     <div class="time">Added at ${new Date().toLocaleTimeString()}</div>
-  `
+
+`
 
   // Action buttons container
   let actions = document.createElement('div')

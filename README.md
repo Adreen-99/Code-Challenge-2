@@ -2,19 +2,19 @@
 
 A simple, dynamic web application that lets you manage a guest list for any event. Add guests, categorize them, track attendance, and remove them — all without refreshing the page.
 
-This challenge showcases DOM manipulation, event handling, and a beautifully styled UI using vanilla JavaScript, HTML, and CSS.
+This challenge showcases DOM manipulation, event handling, and a beautifully styled UI using JavaScript, HTML, and CSS.
 
 ---
 -- How to Run These functions ----
 ## 🛠️ Features
 
-### ✅ Core Functionality
+### ✅ Functionality
 - ✏️ Add guest names using a form input
 - 📜 Display guests in a dynamic list
 - ❌ Remove guests individually with a button
 - 🛑 Prevent page reload using `event.preventDefault()`
 
-### 🚀 Stretch Features
+### 🚀  Features
 - 🏷️ Categorize guests as Friend, Family, or Colleague with colored tags
 - 🟢 Toggle RSVP status (Attending / Not Attending)
 - 🧍 Limit guest list to 10 people — alert if the limit is reached
@@ -33,7 +33,7 @@ The `style.css` includes:
   - RSVP toggle buttons
   - Category-specific colored tags
 
-```css
+```css looks like this:
 @keyframes float {
   0%, 100% {
     transform: translate(0, 0);
@@ -44,9 +44,7 @@ The `style.css` includes:
 }
 -- I created a files in the Visual Code Editor -------
 📁 Folder Structure
-css
-Copy
-Edit
+
 event-guest-list-manager/
 │
 ├── index.html           # Main HTML layout
@@ -58,7 +56,7 @@ HTML5
 
 CSS3 (Animations, Pseudo-elements)
 
-Vanilla JavaScript (DOM methods, event handling)
+JavaScript (DOM methods, event handling)
 
 🚀 How to Run
 Option 1: With Live Server (Recommended)
