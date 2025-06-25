@@ -52,16 +52,16 @@ Using JSON Server as the MockAPI
 Github fork and clone 
 
 ##View Live Site
-Visit the deployed application at: 
+Visit the deployed application at: https://adreen-99.github.io/Code-Challenge-2/
 
 ##Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+Please ensure that you update tests as needed.
 
 ##Support and Contacts
-Incase you have any question kindly reach me 
-Email Address : githnjiadreen27@gmail.com
+In case you have any questions, kindly reach out to me 
+Email Address: githnjiadreen27@gmail.com
 
 ##License
 MIT License
