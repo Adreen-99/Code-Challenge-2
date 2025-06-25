@@ -1,97 +1,78 @@
-# 🎉 Event Guest List Manager
+THE GUEST-LIST MANAGER 
+  
+  ##DESCRIPTION
+The Guest List Manager is a simple application designed to help users organize and manage their guest lists for events. The interface shown in the image appears to be a basic form with fields for entering guest information.
 
-A simple, dynamic web application that lets you manage a guest list for any event. Add guests, categorize them, track attendance, and remove them — all without refreshing the page.
+##Features on the application includes:
 
-This challenge showcases DOM manipulation, event handling, and a beautifully styled UI using JavaScript, HTML, and CSS.
+Guest Name Input Field
 
----
--- How to Run These functions ----
-## 🛠️ Features
+A text field to enter the name of a guest
 
-### ✅ Functionality
-- ✏️ Add guest names using a form input
-- 📜 Display guests in a dynamic list
-- ❌ Remove guests individually with a button
-- 🛑 Prevent page reload using `event.preventDefault()`
+Relationship Indicator
 
-### 🚀  Features
-- 🏷️ Categorize guests as Friend, Family, or Colleague with colored tags
-- 🟢 Toggle RSVP status (Attending / Not Attending)
-- 🧍 Limit guest list to 10 people — alert if the limit is reached
-- 🕒 Show the time each guest was added
-- 🌈 Colorful and animated background using CSS
+Likely a checkbox or toggle to mark whether the guest is a friend
 
----
+Add Guest Button
 
-## 🎨 CSS Design Highlights
+A button to submit and add the guest to the list
 
-The `style.css` includes:
+##Functionality:
+Allow users to add guests by:
 
-- **Floating background glows** using `@keyframes float`
-- Styled form, buttons, and guest items:
-  - Rounded corners, spacing, hover effects
-  - RSVP toggle buttons
-  - Category-specific colored tags
+Entering a name in the "Guest name" field
 
-```css looks like this:
-@keyframes float {
-  0%, 100% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(50px, 30px);
-  }
-}
--- I created a files in the Visual Code Editor -------
-📁 Folder Structure
+Marking the "Friend" checkbox if applicable
 
-event-guest-list-manager/
-│
-├── index.html           # Main HTML layout
-├── style.css            # Styling and background animation
-└── src/
-    └── index.js         # JavaScript logic
-📦 Technologies Used
-HTML5
+Clicking the "Add Guest" button
 
-CSS3 (Animations, Pseudo-elements)
+Store and display the guest list
 
-JavaScript (DOM methods, event handling)
+##Technologies Used
+The application was implemented with:
 
-🚀 How to Run
-Option 1: With Live Server (Recommended)
-Open folder in VS Code
+HTML for the structure
 
-Install Live Server extension
+CSS for styling
 
-Right-click index.html → "Open with Live Server"
-
-Option 2: Open Directly
-Double-click index.html
-
-For full feature support (like local development scripts), use Live Server
-
-📌 Developers TakeNote:
-Clear let variable declarations used
-
-Uses event.preventDefault() on form submission
-
-Uses DOM creation with createElement, appendChild, classList.add, etc.
-
-Uses event delegation to handle dynamic buttons
-
-🧠 What I Learned
-
-DOM manipulation best practices
-
-Preventing page reloads on form submission
-
-Event delegation and dynamic element control
-
-Styling a web page using animations and layout design
+JavaScript for interactive functionality
 
 
-👤 Author : Adreen N.Githinji
-EmailAddress : githinjiadreen27@gmail.com
-Adreen-99
-GitHub: https://github.com/Adreen-99
+##Instructions On How To Use the System:
+
+Enter the guest's name in the "Guest name" field
+
+Check the "Friend" box if the guest is a personal friend
+
+Click "Add Guest" to add them to your list
+
+##How to run the System:
+Use Visual Studio
+Using JSON Server as the MockAPI
+Github fork and clone 
+
+##View Live Site
+Visit the deployed application at: 
+
+##Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+##Support and Contacts
+Incase you have any question kindly reach me 
+Email Address : githnjiadreen27@gmail.com
+
+##License
+MIT License
+
+Copyright © 2025 Adreen Githinji
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+The guest should then appear in your managed list
