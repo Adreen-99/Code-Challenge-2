@@ -7,7 +7,7 @@ body {
   overflow-x: hidden;
   position: relative;
 }
-/*Glow effect on the webpage - top-left*/
+
 body::before {
   content: "";
   position: absolute;
@@ -20,7 +20,7 @@ body::before {
   z-index: 0;
   animation: float 20s ease-in-out infinite;
 }
-/*Glow effect on the webpage - bottom-right*/
+
 body::after {
   content: "";
   position: absolute;
@@ -130,22 +130,3 @@ button.rsvp-btn {
   color: gray;
   margin-top: 0.25rem;
 }
-
-/*Decoration background - animations*/
-/* @keyframes float {
-  0%, 100% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(50px, 30px);
-  }
-}
-
-@keyframes float2 {
-  0%, 100% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(-40px, -20px);
-  }
-} */
