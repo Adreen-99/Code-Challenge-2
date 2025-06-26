@@ -1,68 +1,69 @@
-## THE GUEST-LIST MANAGER
+# Event Guest List Manager
 
-## DESCRIPTION 
-The Guest List Manager is a simple application designed to help users organize and manage their guest lists for events. The interface shown in the image appears to be a basic form with fields for entering guest information.
+A simple, web application that lets you manage a guest list for any event. Add guests, categorize them, track attendance, and remove them — all without refreshing the page.
 
-## Features on the application includes:
+This challenge showcases DOM manipulation, event handling, and a beautifully styled UI using JavaScript, HTML, and CSS.
 
-Guest Name Input Field
+### Functionality
+- Add guest names using a form input
+- Display guests in a dynamic list
+- Remove guests individually with a button
+- Prevent page reload using `event.preventDefault()`
 
-A text field to enter the name of a guest
+### Features
+- Categorize guests as Friend, Family, or Colleague with colored tags
+- Toggle RSVP status (Attending / Not Attending)
+- Limit guest list to 10 people — alert if the limit is reached
+- Show the time each guest was added
+- Colorful and animated background using CSS
 
-Relationship Indicator
+---
+## How To Run 
+-- I created a files in the Visual Code Editor -------
 
-Likely a checkbox or toggle to mark whether the guest is a friend
+Folder Structure
 
-Add Guest Button
+event-guest-list-manager/
+│
+├── index.html           # Main HTML layout
+├── style.css            # Styling and background animation
+└── src/
+    └── index.js         # JavaScript logic
 
-A button to submit and add the guest to the list
+Option 1: With Live Server 
+Open folder in VS Code
 
-## Functionality:
-Allow users to add guests by:
+Install Live Server extension
 
-Entering a name in the "Guest name" field
+Right-click index.html → "Open with Live Server"
 
-Marking the "Friend" checkbox if applicable
+Option 2: Open Directly
+Double-click index.html
 
-Clicking the "Add Guest" button
+## Technologies Used
 
-Store and display the guest list
+HTML5
 
-## Technologies Used The application was implemented with:
+CSS3
 
-HTML for the structure
+JavaScript (DOM methods, event handling)
 
-CSS for styling
+## What I Learned
 
-JavaScript for interactive functionality
+DOM manipulation best practices
 
-##Instructions On How To Use the System:
+Preventing page reloads on form submission
 
-Enter the guest's name in the "Guest name" field
+Event delegation and dynamic element control
 
-Check the "Friend" box if the guest is a personal friend
+Styling a web page using animations and layout design
 
-Click "Add Guest" to add them to your list
+## Author
 
-## How to run the System:
- Use Visual Studio 
-
- Using JSON Server as the MockAPI 
- 
- Github fork and clone
-
-## View Live Site 
-Local Repository :https://github.com/Adreen-99/Code-Challenge-2
-
-Visit the deployed application at: https://adreen-99.github.io/Code-Challenge-2/
-
-## Contributing Pull requests are welcome. 
-For major changes, please open an issue first to discuss the changes you would like to make.
-
-Please ensure that you update tests as needed.
-
-## Author 
-In case you have any questions, kindly reach out to me Email Address: githnjiadreen27@gmail.com
+Author : Adreen N.Githinji
+EmailAddress : githinjiadreen27@gmail.com
+Adreen-99
+GitHub: https://github.com/Adreen-99
 
 ## License MIT License
 
