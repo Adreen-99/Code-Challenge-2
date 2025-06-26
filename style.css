@@ -132,7 +132,7 @@ button.rsvp-btn {
 }
 
 /*Decoration background - animations*/
-@keyframes float {
+/* @keyframes float {
   0%, 100% {
     transform: translate(0, 0);
   }
@@ -148,4 +148,4 @@ button.rsvp-btn {
   50% {
     transform: translate(-40px, -20px);
   }
-}
+} */
