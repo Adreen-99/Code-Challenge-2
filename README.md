@@ -19,26 +19,8 @@ This challenge showcases DOM manipulation, event handling, and a beautifully sty
 
 ---
 ## How To Run 
--- I created a files in the Visual Code Editor -------
-
-Folder Structure
-
-event-guest-list-manager/
-│
-├── index.html           # Main HTML layout
-├── style.css            # Styling and background animation
-└── src/
-    └── index.js         # JavaScript logic
-
-Option 1: With Live Server 
-Open folder in VS Code
-
-Install Live Server extension
-
-Right-click index.html → "Open with Live Server"
-
-Option 2: Open Directly
-Double-click index.html
+Use Visual Studio Editor
+Terminal/Command Line
 
 ## Technologies Used
 
@@ -48,21 +30,27 @@ CSS3
 
 JavaScript (DOM methods, event handling)
 
-## What I Learned
+## View Live Site
 
-DOM manipulation best practices
+## Related Repositories
+Backend API
+Repository : (https://github.com/Adreen-99/Code-Challenge-2)
 
-Preventing page reloads on form submission
+Visit the deployed application at: (https://adreen-99.github.io/Code-Challenge-2/)
 
-Event delegation and dynamic element control
+The live site allows you to:
 
-Styling a web page using animations and layout design
+Browse through the list of blog posts on the home page
+Click on any post to read its full content
+Navigate to the About page to learn more about the blog
+Use the Contact page to reach out via the contact form
 
 ## Author
 
 Author : Adreen N.Githinji
+
 EmailAddress : githinjiadreen27@gmail.com
-Adreen-99
+
 GitHub: https://github.com/Adreen-99
 
 ## License MIT License
